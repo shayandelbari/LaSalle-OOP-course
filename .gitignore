@@ -1,0 +1,42 @@
+## Visual Studio temporary files
+.vs/
+bin/
+obj/
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+## Visual Studio cache files
+*.[Cc]ache
+!*.[Cc]ache/
+
+## NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+## MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/ 
