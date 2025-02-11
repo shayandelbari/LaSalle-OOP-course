@@ -53,8 +53,8 @@ class Program
     {
         Console.WriteLine("Welcome to the Computer Store!");
         Console.Write("Enter the number of computers you want to create: ");
-        int manNum = Convert.ToInt32(Console.ReadLine());
-        Computer[] computers = new Computer[manNum];
+        int maxNum = Convert.ToInt32(Console.ReadLine());
+        Computer[] computers = new Computer[maxNum];
 
         const string PASSWORD = "password";
         string msg = @"What do you want to do?
@@ -66,7 +66,7 @@ class Program
 Please enter your choice > ";
 
         Console.WriteLine(msg);
-        int choice = Convert.ToInt32(Console.ReadLine());
+        int choice = int.TryParse(Console.ReadLine(), out int result) ? result : 0;
 
         while (choice != 5)
         {
